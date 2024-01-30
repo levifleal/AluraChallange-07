@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createHashRouter } from 'react-router-dom'
 
 //pages
 import ErrorPage from './errorPage.jsx'
@@ -12,13 +12,13 @@ import Novidades from './Routes/novidades.jsx'
 import Promos from './Routes/promos.jsx'
 import Items from './Routes/items.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
   path:'/',
   element:<App/>,
   errorElement:<ErrorPage/>,
   children:[{
-    path:'AluraChallange-07/',
+    path:'#/AluraChallange-07/',
     element:<Home/>
 
   },
@@ -29,23 +29,23 @@ const router = createBrowserRouter([
   },
   {
     id:'lojas',
-    path:'AluraChallange-07/lojas',
+    path:'#/AluraChallange-07/lojas',
     element:<Lojas/>,
 
   },
   {
     id:'novidades',
-    path:'AluraChallange-07/novidades',
+    path:'#/AluraChallange-07/novidades',
     element:<Novidades/>,
 
   },{
     id:'promos',
-    path:'AluraChallange-07/Promos',
+    path:'#/AluraChallange-07/Promos',
     element:<Promos/>,
 
   },{
     id:'Promos',
-    path:'AluraChallange-07/products/:item',
+    path:'#/AluraChallange-07/products/:item',
     element:<Items/>,
 
   }

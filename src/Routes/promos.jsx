@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Promos = () => {
+  document.title = 'Promoções | METEORA'
   return (
     <div className='content'>
 
