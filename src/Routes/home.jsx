@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerCarrosel from '../components/bannerCarrosel'
-import Categorias from '../components/Categorias'
+import Categorias from '../components/categorias'
 import Facilidades from '../components/facilidades'
 import Produtos from '../components/produtos'
 import Novidades from '../components/novidades'
