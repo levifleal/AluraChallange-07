@@ -33,10 +33,10 @@ export default function MyNav(){
               </Offcanvas.Header>
                <Offcanvas.Body>
                 <Nav className="justify-content-start align-items-center flex-grow-1 pe-3 text-center">
-                  <Nav.Link className='text-white' href="#/AluraChallange-07/">Home</Nav.Link>
-                  <Nav.Link className='text-white'  href="#/AluraChallange-07/lojas">Nossas Lojas</Nav.Link>
-                  <Nav.Link className='text-white'  href="#/AluraChallange-07/novidades">Novidades</Nav.Link>
-                  <Nav.Link className='text-white'  href="#/AluraChallange-07/promos">Promoções</Nav.Link>
+                  <Nav.Link className='text-white' href="/AluraChallange-07/">Home</Nav.Link>
+                  <Nav.Link className='text-white'  href="/AluraChallange-07/lojas">Nossas Lojas</Nav.Link>
+                  <Nav.Link className='text-white'  href="/AluraChallange-07/novidades">Novidades</Nav.Link>
+                  <Nav.Link className='text-white'  href="/AluraChallange-07/promos">Promoções</Nav.Link>
                 </Nav>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
