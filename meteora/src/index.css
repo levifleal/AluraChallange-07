@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  /* font */
+  --default-font:'Inter',sans-serif;
+
+  /* color-palet */
+
+  /* Primary */
+  --Mblack:#000000;
+  --Mwhite:#CCCCCC;
+  --Myellow:#DAFF01;
+  --Mpurple:#9353FF;
+
+  --Preto:var(--Mblack);
+  --Bege:#F5F5DC;
+  --OffWhite: #FAF9F6;
+  --Marron:#964b00 ;
+  --Azul: #0000FF;
+  --AzulClaro:#add8e6;
+  --AzulDourado: radial-gradient(circle, rgba(84,217,238,1) 0%, rgba(255,243,0,1) 100%);
+
+
+
+  /* complementary */
+  --Mred:#EE6471;
+  --Morange:#F87F46;
+
+  /* sreens-sizes */
+  --desktop:1440px;
+  --tablet:768px;
+  --mobile:375px;
+
+
+  
+}
+
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  font-family: var(--default-font);
+	vertical-align: baseline;
+  font-weight: 500;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.card-hover{
+  transition: .25s ease-in-out
+}
+
+.card-hover:hover{
+  transform: scale(1.05);
+}
+
+.card-hover2{
+  transition: .15s ease-in-out
+}
+
+.card-hover2:hover{
+  transform: translate(-5px,-10px);
+}
+
+.text-yellow{
+  color: var(--Myellow);
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.btn-loja{
+  background: var(--Mpurple);
+  border-color: var(--Mpurple);
+}
+
+.btn-loja:hover{
+  background: var(--Mpurple);
+  opacity: 80%;
+  border-color: var(--Mpurple);
+}
+
+.decoration-none{
+  text-decoration: none;
+}
+
+.radio{
+  background-color: var(--bs-form-check-bg);
+  border: gray 1px solid;
+}
+
+.radio:checked{
+  background-color: var(--bs-form-check-bg);
+}
+
+
+.radio-size{
+  border-color: gray;
+
+}
+
+.body{
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content{
+  flex:1;
+}
