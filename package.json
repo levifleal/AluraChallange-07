@@ -1,5 +1,4 @@
 {
-  "homepage": "levifleal/github.io/AluraChallange-07",
   "name": "meteora",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,9 @@
     "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "now": "npm run build && npm run preview"
+    
   },
   "dependencies": {
     "bootstrap": "^5.3.2",

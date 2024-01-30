@@ -18,31 +18,36 @@ const router = createBrowserRouter([
   element:<App/>,
   errorElement:<ErrorPage/>,
   children:[{
-    path:'/',
+    path:'AluraChallange-07/',
     element:<Home/>
 
   },
   {
-    path:'/home',
+    id:'home',
+    path:'AluraChallange-07/home',
     element:<Home/>
   },
   {
-    path:'/lojas',
+    id:'lojas',
+    path:'AluraChallange-07/lojas',
     element:<Lojas/>,
-    errorElement:<ErrorPage/>
+
   },
   {
-    path:'/novidades',
+    id:'novidades',
+    path:'AluraChallange-07/novidades',
     element:<Novidades/>,
-    errorElement:<ErrorPage/>
+
   },{
-    path:'/Promos',
+    id:'promos',
+    path:'AluraChallange-07/Promos',
     element:<Promos/>,
-    errorElement:<ErrorPage/>
+
   },{
-    path:'/products/:item',
+    id:'Promos',
+    path:'AluraChallange-07/products/:item',
     element:<Items/>,
-    errorElement:<ErrorPage/>
+
   }
   ]
 },
