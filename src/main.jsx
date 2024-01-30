@@ -14,44 +14,45 @@ import Items from './Routes/items.jsx'
 
 const router = createHashRouter([
   {
-  path:'/',
-  element:<App/>,
-  errorElement:<ErrorPage/>,
-  children:[{
-    path:'AluraChallange-07/',
-    element:<Home/>
+    path:'/',
+    element:<App/>,
+    errorElement:<ErrorPage/>,
+    children:[{
+        path:'AluraChallange-07/',
+        element:<Home/>
 
-  },
-  {
-    id:'home',
-    path:'AluraChallange-07/home',
-    element:<Home/>
-  },
-  {
-    id:'lojas',
-    path:'AluraChallange-07/lojas',
-    element:<Lojas/>,
+      },
+      {
+        id:'home',
+        path:'AluraChallange-07/home',
+        element:<Home/>
+      },
+      {
+        id:'lojas',
+        path:'AluraChallange-07/lojas',
+        element:<Lojas/>,
 
-  },
-  {
-    id:'novidades',
-    path:'AluraChallange-07/novidades',
-    element:<Novidades/>,
+      },
+      {
+        id:'novidades',
+        path:'AluraChallange-07/novidades',
+        element:<Novidades/>,
 
-  },{
-    id:'promos',
-    path:'AluraChallange-07/Promos',
-    element:<Promos/>,
+      },{
+        id:'promos',
+        path:'AluraChallange-07/Promos',
+        element:<Promos/>,
 
-  },{
-    id:'Promos',
-    path:'AluraChallange-07/products/:item',
-    element:<Items/>,
+      },{
+        id:'Promos',
+        path:'AluraChallange-07/products/:item',
+        element:<Items/>,
 
+      }
+    ]
   }
-  ]
-},
-])
+]
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
