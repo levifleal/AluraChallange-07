@@ -6,7 +6,7 @@ import { Modal } from 'react-bootstrap'
 import Produtos from '../components/produtos'
 
 const Items = () => {
-  document.title = 'METEORA'
+  
   return (
     <>
     <div className='content'>

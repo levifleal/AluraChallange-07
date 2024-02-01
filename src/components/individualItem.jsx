@@ -5,8 +5,11 @@ import { useParams } from 'react-router-dom'
 import produtosDb from '../db'
 
 const IndividualItem = () => {
+    
 
     let {item} = useParams()
+
+    document.title = `${item}  | METEORA`
 
     function searchProduct(item){
         for(let i = 0;i < produtosDb.length;i++){
