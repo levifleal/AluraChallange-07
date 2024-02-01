@@ -18,7 +18,7 @@ export default function MyNav(){
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} bg="black" className='mb-0' >
           <Container>
-            <Navbar.Brand href="#"><img src={logo}alt="Logo Meteora" /></Navbar.Brand>
+            <Navbar.Brand href="/"><img src={logo}alt="Logo Meteora" /></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

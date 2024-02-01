@@ -13,7 +13,7 @@ let produtosDb = [
         title:'Camisa Conforto',
         desc:'Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.',
         price:'R$ 70,00',
-        path:'./products/camisaConforto',
+        path:'/camisaConforto',
         cores:[
             'Marron','Azul','Preto'
         ],
@@ -28,7 +28,7 @@ let produtosDb = [
         title:'Calça Alfaiataria',
         desc:'Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!',
         price:'R$ 180,00',
-        path:'./products/calcaAlfaiataria',
+        path:'/calcaAlfaiataria',
         cores:[
             'Bege','Preto','OffWhite'
         ],
@@ -42,7 +42,7 @@ let produtosDb = [
         title:'Tênis Chunky',
         desc:'Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.',
         price:'R$ 250,00',
-        path:'./products/tenisChuncky',
+        path:'/tenisChuncky',
         cores:[
             'Branco','Preto','Azul',
         ],
@@ -56,7 +56,7 @@ let produtosDb = [
         title:'Jaqueta Jeans',
         desc:'Modelo unissex oversized com gola de camurça. Atemporal e autêntica!',
         price:'R$ 150,00',
-        path:'./products/jaquetaJeans', 
+        path:'/jaquetaJeans', 
         cores:[
             'Azul Claro','Preto'
         ],
@@ -70,7 +70,7 @@ let produtosDb = [
         title:'Óculos Redondo',
         desc:'Armação metálica em grafite com lentes arredondadas. Sem erro!',
         price:'R$ 120,00',
-        path:'./products/oculosRedondo',
+        path:'/oculosRedondo',
         cores:[
             'Preto','Branco','Marron'
         ],
@@ -84,7 +84,7 @@ let produtosDb = [
         title:'Bolsa Coringa',
         desc:'Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!',
         price:'R$ 120,00',
-        path:'./products/bolsaCoringa', cores:[
+        path:'/bolsaCoringa', cores:[
             'Camel','Preto','OffWhite'
         ],
         tamanho:[

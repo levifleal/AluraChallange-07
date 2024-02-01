@@ -43,10 +43,10 @@ const router = createBrowserRouter([
         path:'Promos',
         element:<Promos/>,
 
-      },{
-        path:'products/:item',
-        element:<Items/>,
-
+      },
+      {
+        path:':item',
+        element:<Items/>
       }
     ]
   }

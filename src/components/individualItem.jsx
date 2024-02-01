@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Container, FormCheck } from 'react-bootstrap'
+import { Form, FormCheck } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 
 import produtosDb from '../db'
@@ -7,20 +7,24 @@ import produtosDb from '../db'
 const IndividualItem = () => {
     
 
-    let {item} = useParams()
+    const {item} = useParams();
+    
 
-    document.title = `${item}  | METEORA`
+    
 
-    function searchProduct(item){
+    function  searchProduct(item){
         for(let i = 0;i < produtosDb.length;i++){
             if(item == produtosDb[i].name){
-                let product = produtosDb[i]
+                 let product = produtosDb[i]
             return product
             }
+            console.log('passou')
         }
     }
 
     let product = searchProduct(item);
+    document.title = `METEORA`
+    console.log(item)
 
   return (
     <>
