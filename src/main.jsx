@@ -23,29 +23,28 @@ const router = createBrowserRouter([
 
       },
       {
-        id:'home',
-        path:'/home',
+
+        path:'home',
         element:<Home/>
       },
       {
-        id:'lojas',
-        path:'/lojas',
+
+        path:'lojas',
         element:<Lojas/>,
 
       },
       {
-        id:'novidades',
-        path:'/novidades',
+
+        path:'novidades',
         element:<Novidades/>,
 
       },{
-        id:'promos',
-        path:'/Promos',
+
+        path:'Promos',
         element:<Promos/>,
 
       },{
-        id:'Promos',
-        path:'/products/:item',
+        path:'products/:item',
         element:<Items/>,
 
       }
