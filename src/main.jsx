@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider, createHashRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 //pages
 import ErrorPage from './errorPage.jsx'
@@ -12,7 +12,7 @@ import Novidades from './Routes/novidades.jsx'
 import Promos from './Routes/promos.jsx'
 import Items from './Routes/items.jsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path:'/',
     element:<App/>,
